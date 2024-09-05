@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.extensions\\ienumerableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|solutionrelative:yazilimcipazari.backend.domain.extensions\\ienumerableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.extensions\\objectextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|solutionrelative:yazilimcipazari.backend.domain.extensions\\objectextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.extensions\\jsonextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|solutionrelative:yazilimcipazari.backend.domain.extensions\\jsonextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.extensions\\integerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|solutionrelative:yazilimcipazari.backend.domain.extensions\\integerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.extensions\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|solutionrelative:yazilimcipazari.backend.domain.extensions\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.extensions\\datetimeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|solutionrelative:yazilimcipazari.backend.domain.extensions\\datetimeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,6 +87,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IEnumerableExtension.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\IEnumerableExtension.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Extensions\\IEnumerableExtension.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\IEnumerableExtension.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Extensions\\IEnumerableExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:58:21.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObjectExtension.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\ObjectExtension.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Extensions\\ObjectExtension.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\ObjectExtension.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Extensions\\ObjectExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:57:32.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonExtension.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\JsonExtension.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Extensions\\JsonExtension.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\JsonExtension.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Extensions\\JsonExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:56:59.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IntegerExtension.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\IntegerExtension.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Extensions\\IntegerExtension.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\IntegerExtension.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Extensions\\IntegerExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:56:04.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StringExtension.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\StringExtension.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Extensions\\StringExtension.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\StringExtension.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Extensions\\StringExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:48:42.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DateTimeExtension.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\DateTimeExtension.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Extensions\\DateTimeExtension.cs",
@@ -79,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "UserSkill.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserSkill.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserSkill.cs",
@@ -92,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Base\\Entity.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Base\\Entity.cs",
@@ -105,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "CompanyComment.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanyComment.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanyComment.cs",
@@ -118,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "CompanySkill.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanySkill.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanySkill.cs",
@@ -131,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Project.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Project.cs",
@@ -144,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ProjectSkill.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\ProjectSkill.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\ProjectSkill.cs",
@@ -157,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Skill.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Skill.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Skill.cs",
@@ -170,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
@@ -183,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "UserComment.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserComment.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserComment.cs",
@@ -196,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IEntity.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Abstract\\IEntity.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Abstract\\IEntity.cs",
@@ -209,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Comment.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Comment.cs",
@@ -222,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Company.cs",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Company.cs",
