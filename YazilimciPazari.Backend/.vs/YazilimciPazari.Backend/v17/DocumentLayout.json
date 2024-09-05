@@ -1,12 +1,241 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.extensions\\datetimeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9852B34E-45AE-459D-BF0E-1D6913D76EA1}|YazilimciPazari.Backend.Domain.Extensions\\YazilimciPazari.Backend.Domain.Extensions.csproj|solutionrelative:yazilimcipazari.backend.domain.extensions\\datetimeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\base\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\base\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\userskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\userskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\projectskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\projectskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\companyskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\companyskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\companycomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\companycomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DateTimeExtension.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\DateTimeExtension.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Extensions\\DateTimeExtension.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Extensions\\DateTimeExtension.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Extensions\\DateTimeExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:40:33.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserSkill.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserSkill.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserSkill.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserSkill.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:05:53.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Base\\Entity.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Base\\Entity.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Base\\Entity.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Base\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T04:50:39.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompanyComment.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanyComment.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanyComment.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanyComment.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanyComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:08:29.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompanySkill.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanySkill.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanySkill.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanySkill.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\CompanySkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:06:52.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Project.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Project.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Project.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T04:56:14.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectSkill.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\ProjectSkill.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\ProjectSkill.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\ProjectSkill.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\ProjectSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:05:21.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Skill.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Skill.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Skill.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:04:33.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T04:51:40.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserComment.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserComment.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserComment.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserComment.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\UserComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:08:53.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Abstract\\IEntity.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Abstract\\IEntity.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Abstract\\IEntity.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Abstract\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T04:48:54.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Comment.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Comment.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Comment.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T05:23:22.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Company.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Company.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Company.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T04:57:32.476Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

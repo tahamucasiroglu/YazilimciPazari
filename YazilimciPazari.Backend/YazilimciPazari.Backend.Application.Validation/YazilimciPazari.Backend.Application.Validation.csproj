@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YazilimciPazari.Backend.Domain.Constants\YazilimciPazari.Backend.Domain.Constants.csproj" />
+    <ProjectReference Include="..\YazilimciPazari.Backend.Domain.DTOs\YazilimciPazari.Backend.Domain.DTOs.csproj" />
+    <ProjectReference Include="..\YazilimciPazari.Backend.Domain.Entities\YazilimciPazari.Backend.Domain.Entities.csproj" />
+    <ProjectReference Include="..\YazilimciPazari.Backend.Domain.Extensions\YazilimciPazari.Backend.Domain.Extensions.csproj" />
+    <ProjectReference Include="..\YazilimciPazari.Backend.Domain.Returns\YazilimciPazari.Backend.Domain.Returns.csproj" />
+  </ItemGroup>
+
 </Project>

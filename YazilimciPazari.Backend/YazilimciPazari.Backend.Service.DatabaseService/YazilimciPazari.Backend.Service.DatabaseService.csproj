@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YazilimciPazari.Backend.Infrasructure.Infrasructure\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj" />
+    <ProjectReference Include="..\YazilimciPazari.Backend.Infrasructure.Models\YazilimciPazari.Backend.Infrasructure.Models.csproj" />
+  </ItemGroup>
+
 </Project>
