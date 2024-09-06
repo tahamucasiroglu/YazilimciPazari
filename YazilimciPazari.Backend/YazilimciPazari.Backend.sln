@@ -13,29 +13,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{09C61058-B1C6-414E-A206-FA5662472170}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Application.Abstract", "YazilimciPazari.Backend.Application.Abstract\YazilimciPazari.Backend.Application.Abstract.csproj", "{19EBA795-B389-4C4D-A62E-1D2211DE6E8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Application.Mapper", "YazilimciPazari.Backend.Application.Mapper\YazilimciPazari.Backend.Application.Mapper.csproj", "{3E9D8357-8089-460D-B682-62269C9C926B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Application.Mapper", "YazilimciPazari.Backend.Application.Mapper\YazilimciPazari.Backend.Application.Mapper.csproj", "{3E9D8357-8089-460D-B682-62269C9C926B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Application.Validation", "YazilimciPazari.Backend.Application.Validation\YazilimciPazari.Backend.Application.Validation.csproj", "{43DF4311-ADE9-4839-8BA0-C22FE93C210F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Application.Validation", "YazilimciPazari.Backend.Application.Validation\YazilimciPazari.Backend.Application.Validation.csproj", "{43DF4311-ADE9-4839-8BA0-C22FE93C210F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Domain.Constants", "YazilimciPazari.Backend.Domain.Constants\YazilimciPazari.Backend.Domain.Constants.csproj", "{C5097917-B895-4443-93C7-3B9FC877CDFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Domain.Constants", "YazilimciPazari.Backend.Domain.Constants\YazilimciPazari.Backend.Domain.Constants.csproj", "{C5097917-B895-4443-93C7-3B9FC877CDFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Domain.DTOs", "YazilimciPazari.Backend.Domain.DTOs\YazilimciPazari.Backend.Domain.DTOs.csproj", "{861F09A8-5BFD-4E7B-8D01-3778AE1B012C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Domain.DTOs", "YazilimciPazari.Backend.Domain.DTOs\YazilimciPazari.Backend.Domain.DTOs.csproj", "{861F09A8-5BFD-4E7B-8D01-3778AE1B012C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Domain.Entities", "YazilimciPazari.Backend.Domain.Entities\YazilimciPazari.Backend.Domain.Entities.csproj", "{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Domain.Entities", "YazilimciPazari.Backend.Domain.Entities\YazilimciPazari.Backend.Domain.Entities.csproj", "{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Domain.Extensions", "YazilimciPazari.Backend.Domain.Extensions\YazilimciPazari.Backend.Domain.Extensions.csproj", "{9852B34E-45AE-459D-BF0E-1D6913D76EA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Domain.Extensions", "YazilimciPazari.Backend.Domain.Extensions\YazilimciPazari.Backend.Domain.Extensions.csproj", "{9852B34E-45AE-459D-BF0E-1D6913D76EA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Domain.Returns", "YazilimciPazari.Backend.Domain.Returns\YazilimciPazari.Backend.Domain.Returns.csproj", "{080665B0-6DEA-42B7-99CB-6CDB605570F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Domain.Returns", "YazilimciPazari.Backend.Domain.Returns\YazilimciPazari.Backend.Domain.Returns.csproj", "{080665B0-6DEA-42B7-99CB-6CDB605570F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Infrasructure.Infrasructure", "YazilimciPazari.Backend.Infrasructure.Infrasructure\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj", "{66F54E40-A959-4B65-B198-0FDAF68D2E6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Infrasructure.Infrasructure", "YazilimciPazari.Backend.Infrasructure.Infrasructure\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj", "{66F54E40-A959-4B65-B198-0FDAF68D2E6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Infrasructure.Models", "YazilimciPazari.Backend.Infrasructure.Models\YazilimciPazari.Backend.Infrasructure.Models.csproj", "{1CE8AC1D-DE34-4F79-A6AC-6B930CACEBEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Infrasructure.Models", "YazilimciPazari.Backend.Infrasructure.Models\YazilimciPazari.Backend.Infrasructure.Models.csproj", "{1CE8AC1D-DE34-4F79-A6AC-6B930CACEBEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Presentation.API", "YazilimciPazari.Backend.Presentation.API\YazilimciPazari.Backend.Presentation.API.csproj", "{09ED6D27-B580-4B14-BD04-97A549A944B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Presentation.API", "YazilimciPazari.Backend.Presentation.API\YazilimciPazari.Backend.Presentation.API.csproj", "{09ED6D27-B580-4B14-BD04-97A549A944B2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimciPazari.Backend.Service.DatabaseService", "YazilimciPazari.Backend.Service.DatabaseService\YazilimciPazari.Backend.Service.DatabaseService.csproj", "{EECC2494-5A3D-45AE-9BF7-2E20C0723F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YazilimciPazari.Backend.Service.DatabaseService", "YazilimciPazari.Backend.Service.DatabaseService\YazilimciPazari.Backend.Service.DatabaseService.csproj", "{EECC2494-5A3D-45AE-9BF7-2E20C0723F6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +41,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{19EBA795-B389-4C4D-A62E-1D2211DE6E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19EBA795-B389-4C4D-A62E-1D2211DE6E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19EBA795-B389-4C4D-A62E-1D2211DE6E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19EBA795-B389-4C4D-A62E-1D2211DE6E8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E9D8357-8089-460D-B682-62269C9C926B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E9D8357-8089-460D-B682-62269C9C926B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E9D8357-8089-460D-B682-62269C9C926B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -96,7 +90,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{19EBA795-B389-4C4D-A62E-1D2211DE6E8A} = {9CF62797-0F7C-4CBC-B739-F40E9ABAF540}
 		{3E9D8357-8089-460D-B682-62269C9C926B} = {9CF62797-0F7C-4CBC-B739-F40E9ABAF540}
 		{43DF4311-ADE9-4839-8BA0-C22FE93C210F} = {9CF62797-0F7C-4CBC-B739-F40E9ABAF540}
 		{C5097917-B895-4443-93C7-3B9FC877CDFB} = {00A0E5E7-5052-4C85-A7C6-EDB9CFA5A967}
