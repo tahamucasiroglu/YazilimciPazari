@@ -57,5 +57,18 @@ namespace YazilimciPazari.Backend.Domain.Extensions
                 return BitConverter.ToString(result).Replace("-", "").ToLower();
             }
         }
+
+
+        static public bool IsOnlyLetter(this string str) => str.All(char.IsLetter);
+
+
+        static public bool IsLetterOrDigit(this string str) => str.All(char.IsLetterOrDigit);
+
+
+        static public bool IsValidUtf8(this string str) => Regex.IsMatch(str, @"^[\p{L}\p{N}]+$");
+
+        static public bool IsOnlyDigits(this string str) => Regex.IsMatch(str, @"^\d+$");
+
+        static public bool IsSha512Hash(this string str) => !string.IsNullOrEmpty(str) && str.Length == 128 && Regex.IsMatch(str, @"^[a-fA-F0-9]+$");
     }
 }

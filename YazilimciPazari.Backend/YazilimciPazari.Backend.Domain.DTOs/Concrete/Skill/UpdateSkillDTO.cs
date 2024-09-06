@@ -9,5 +9,6 @@ namespace YazilimciPazari.Backend.Domain.DTOs.Concrete.Skill
 {
     public sealed record UpdateSkillDTO : UpdateDTO
     {
+        public string Name { get; set; } = string.Empty;
     }
 }

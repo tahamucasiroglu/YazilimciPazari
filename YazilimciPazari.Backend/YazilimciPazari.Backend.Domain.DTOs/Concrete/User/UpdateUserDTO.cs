@@ -9,5 +9,9 @@ namespace YazilimciPazari.Backend.Domain.DTOs.Concrete.User
 {
     public sealed record UpdateUserDTO : UpdateDTO
     {
+        public string Name { get; init; } = string.Empty;
+        public string Description { get; init; } = string.Empty;
+        public string Address { get; init; } = string.Empty;
+        public string Website { get; init; } = string.Empty;
     }
 }
