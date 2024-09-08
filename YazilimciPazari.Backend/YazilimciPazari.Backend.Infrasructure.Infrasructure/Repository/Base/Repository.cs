@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 using YazilimciPazari.Backend.Domain.Entities.Abstract;
+using YazilimciPazari.Backend.Domain.Extensions;
 using YazilimciPazari.Backend.Domain.Returns.Abstract;
 using YazilimciPazari.Backend.Domain.Returns.Concrete;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract.Base;
@@ -105,26 +106,58 @@ namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base
 
         public IReturn<TEntity> Delete(TEntity entity)
         {
-            context.Set<TEntity>().Remove(entity);
-            return Save(entity);
+            try
+            {
+                entity.IsDeleted = true;
+                context.Set<TEntity>().Update(entity);
+                return Save(entity);
+            }
+            catch (Exception e)
+            {
+                return new ErrorReturn<TEntity>(e);
+            }
         }
 
         public IReturn<IEnumerable<TEntity>> Delete(IEnumerable<TEntity> entity)
         {
-            context.Set<TEntity>().RemoveRange(entity);
-            return Save(entity);
+            try
+            {
+                entity.ChangeAll(e => e.IsDeleted = true);
+                context.Set<TEntity>().UpdateRange(entity);
+                return Save(entity);
+            }
+            catch (Exception e)
+            {
+                return new ErrorReturn<IEnumerable<TEntity>>(e);
+            }
         }
 
         public async Task<IReturn<TEntity>> DeleteAsync(TEntity entity)
         {
-            context.Set<TEntity>().Remove(entity);
-            return await SaveAsync(entity);
+            try
+            {
+                entity.IsDeleted = true;
+                context.Set<TEntity>().Update(entity);
+                return await SaveAsync(entity);
+            }
+            catch (Exception e)
+            {
+                return new ErrorReturn<TEntity>(e);
+            }
         }
 
         public async Task<IReturn<IEnumerable<TEntity>>> DeleteAsync(IEnumerable<TEntity> entity)
         {
-            context.Set<TEntity>().RemoveRange(entity);
-            return await SaveAsync(entity);
+            try
+            {
+                entity.ChangeAll(e => e.IsDeleted = true);
+                context.Set<TEntity>().UpdateRange(entity);
+                return await SaveAsync(entity);
+            }
+            catch (Exception e)
+            {
+                return new ErrorReturn<IEnumerable<TEntity>>(e);
+            }
         }
 
         public void Dispose()
