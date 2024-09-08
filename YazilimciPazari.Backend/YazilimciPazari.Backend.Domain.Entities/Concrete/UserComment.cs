@@ -11,5 +11,8 @@ namespace YazilimciPazari.Backend.Domain.Entities.Concrete
     {
         public Guid UserId  { get; set; }
         public Guid CommentId { get; set; }
+
+        virtual public User User { get; set; } = new();
+        virtual public Comment Comment { get; set; } = new();
     }
 }

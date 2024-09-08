@@ -12,5 +12,9 @@ namespace YazilimciPazari.Backend.Domain.Entities.Concrete
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public Guid UserId { get; set; }
+
+        virtual public User User { get; set; } = new();
+
+        virtual public ICollection<ProjectSkill> ProjectSkills { get; set; } = new HashSet<ProjectSkill>();
     }
 }

@@ -11,5 +11,8 @@ namespace YazilimciPazari.Backend.Domain.Entities.Concrete
     {
         public Guid CompanyId { get; set; }
         public Guid SkillId { get; set; }
+
+        virtual public Company Company { get; set; } = new();
+        virtual public Skill Skill { get; set; } = new();
     }
 }

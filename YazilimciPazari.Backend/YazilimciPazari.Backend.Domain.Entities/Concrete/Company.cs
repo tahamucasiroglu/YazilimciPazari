@@ -15,5 +15,8 @@ namespace YazilimciPazari.Backend.Domain.Entities.Concrete
         public string Password {  get; set; } = string.Empty;
         public string Address {  get; set; } = string.Empty;
         public string Website {  get; set; } = string.Empty;
+
+        virtual public ICollection<CompanyComment> CompanyComments { get; set; } = new HashSet<CompanyComment>();
+        virtual public ICollection<CompanySkill> CompanySkills { get; set; } = new HashSet<CompanySkill>();
     }
 }
