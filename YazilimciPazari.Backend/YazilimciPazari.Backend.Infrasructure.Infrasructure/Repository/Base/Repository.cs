@@ -10,7 +10,7 @@ namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base
 {
     abstract public class Repository<TEntity, TContext> : IRepository<TEntity>
         where TEntity : class, IEntity, new()
-        where TContext : DbContext, new()
+        where TContext : DbContext
     {
         internal readonly TContext context;
         public Repository(TContext context)
