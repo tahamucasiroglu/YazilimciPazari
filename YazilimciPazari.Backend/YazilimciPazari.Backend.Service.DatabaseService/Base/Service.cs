@@ -128,6 +128,16 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Base
         {
             return ConvertToReturn<TEntity, TResponse>(await repository.GetAllAsync(), mapper);
         }
+
+        public IReturn<TResponse> GetById(Guid id)
+        {
+            return ConvertToReturn<TEntity, TResponse>(repository.Get(x => x.Id == id), mapper);
+        }
+
+        public async Task<IReturn<TResponse>> GetByIdAsync(Guid id)
+        {
+            return ConvertToReturn<TEntity, TResponse>(await repository.GetAsync(x => x.Id == id), mapper);
+        }
     }
     abstract public class Service<TEntity, TResponse, AddRequest> : Service<TEntity, TResponse>, IService<TResponse, AddRequest>
         where TEntity : class, IEntity, new()

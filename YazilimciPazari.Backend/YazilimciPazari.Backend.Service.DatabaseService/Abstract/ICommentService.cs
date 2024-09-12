@@ -10,5 +10,9 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Abstract
 {
     public interface ICommentService : IService<GetCommentDTO, AddCommentDTO, UpdateCommentDTO>
     {
+        public GetCommentDTO GetById(Guid Id);
+        public Task<GetCommentDTO> GetByIdAsync(Guid Id);
+
+
     }
 }

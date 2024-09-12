@@ -11,11 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Attributes\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\YazilimciPazari.Backend.Service.DatabaseService\YazilimciPazari.Backend.Service.DatabaseService.csproj" />
   </ItemGroup>
 

@@ -27,6 +27,9 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Abstract.Base
     {
         public IReturn<IEnumerable<TResponse>> GetAll();
         public Task<IReturn<IEnumerable<TResponse>>> GetAllAsync();
+
+        public IReturn<TResponse> GetById(Guid id);
+        public Task<IReturn<TResponse>> GetByIdAsync(Guid id);
     }
 
     public interface _IServiceAdd<TResponse, in TAddRequest>
