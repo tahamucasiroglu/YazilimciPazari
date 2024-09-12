@@ -15,8 +15,10 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers
        
         public CommentController(ICommentService service) : base(service) 
         {
-            
+               
         }
+
+
 
     }
 }

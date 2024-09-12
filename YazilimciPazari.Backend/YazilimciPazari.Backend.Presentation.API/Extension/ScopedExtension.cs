@@ -1,6 +1,11 @@
-﻿using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base;
+﻿using YazilimciPazari.Backend.Domain.Entities.Abstract;
+using YazilimciPazari.Backend.Domain.Entities.Base;
+using YazilimciPazari.Backend.Domain.Entities.Concrete;
+using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.SqlServerContext;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract;
+using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract.Base;
+using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Concrete;
 using YazilimciPazari.Backend.Service.DatabaseService.Abstract;
 using YazilimciPazari.Backend.Service.DatabaseService.Concrete;
@@ -11,16 +16,18 @@ namespace YazilimciPazari.Backend.Presentation.API.Extension
     {
         public static void AddScoped(this WebApplicationBuilder builder)
         {
-            builder.Services.AddScoped<ICommentRepository, CommentRepository<BaseContext>>();
-            builder.Services.AddScoped<ICompanyCommentRepository, CompanyCommentRepository<BaseContext>>();
-            builder.Services.AddScoped<ICompanyRepository, CompanyRepository<BaseContext>>();
-            builder.Services.AddScoped<ICompanySkillRepository, CompanySkillRepository<BaseContext>>();
-            builder.Services.AddScoped<IProjectRepository, ProjectRepository<BaseContext>>();
-            builder.Services.AddScoped<IProjectSkillRepository, ProjectSkillRepository<BaseContext>>();
-            builder.Services.AddScoped<ISkillRepository, SkillRepository<BaseContext>>();
-            builder.Services.AddScoped<IUserCommentRepository, UserCommentRepository<BaseContext>>();
-            builder.Services.AddScoped<IUserRepository, UserRepository<BaseContext>>();
-            builder.Services.AddScoped<IUserSkillRepository, UserSkillRepository<BaseContext>>();
+            builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+            builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+            builder.Services.AddScoped<ICompanyCommentRepository, CompanyCommentRepository>();
+            builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
+            builder.Services.AddScoped<ICompanySkillRepository, CompanySkillRepository>();
+            builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+            builder.Services.AddScoped<IProjectSkillRepository, ProjectSkillRepository>();
+            builder.Services.AddScoped<ISkillRepository, SkillRepository>();
+            builder.Services.AddScoped<IUserCommentRepository, UserCommentRepository>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserSkillRepository, UserSkillRepository>();
 
 
 

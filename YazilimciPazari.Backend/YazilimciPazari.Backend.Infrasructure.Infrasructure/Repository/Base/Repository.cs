@@ -4,16 +4,16 @@ using YazilimciPazari.Backend.Domain.Entities.Abstract;
 using YazilimciPazari.Backend.Domain.Extensions;
 using YazilimciPazari.Backend.Domain.Returns.Abstract;
 using YazilimciPazari.Backend.Domain.Returns.Concrete;
+using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract.Base;
 
 namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base
 {
-    abstract public class Repository<TEntity, TContext> : IRepository<TEntity>
+    public class Repository<TEntity> : IRepository<TEntity>
         where TEntity : class, IEntity, new()
-        where TContext : DbContext
     {
-        internal readonly TContext context;
-        public Repository(TContext context)
+        internal readonly BaseContext context;
+        public Repository(BaseContext context)
         {
             this.context = context;
         }

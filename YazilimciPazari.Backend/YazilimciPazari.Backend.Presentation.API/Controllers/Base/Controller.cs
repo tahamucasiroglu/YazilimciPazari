@@ -18,7 +18,7 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers.Base
         }
     }
     abstract public class Controller<TGet> : Controller, IController
-        where TGet : class, IGetDTO, new()
+        where TGet : class, IGetDTO
     {
         internal new readonly IService<TGet> service;
         public Controller(IService<TGet> service) : base(service)
@@ -51,8 +51,8 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers.Base
         }
     }
     abstract public class Controller<TGet, TAdd> : Controller<TGet>, IController<TAdd>
-        where TGet : class, IGetDTO, new()
-        where TAdd : class, IAddDTO, new()
+        where TGet : class, IGetDTO 
+        where TAdd : class, IAddDTO 
     {
         internal new readonly IService<TGet, TAdd> service;
         public Controller(IService<TGet, TAdd> service) : base(service)
@@ -73,9 +73,9 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers.Base
         }
     }
     abstract public class Controller<TGet, TAdd, TUpdate> : Controller<TGet, TAdd>, IController<TAdd, TUpdate>
-        where TGet : class, IGetDTO, new()
-        where TAdd : class, IAddDTO, new()
-        where TUpdate : class, IUpdateDTO, new()
+        where TGet : class, IGetDTO 
+        where TAdd : class, IAddDTO 
+        where TUpdate : class, IUpdateDTO 
     {
         internal new readonly IService<TGet, TAdd, TUpdate> service;
         public Controller(IService<TGet, TAdd, TUpdate> service) : base(service)
@@ -97,10 +97,10 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers.Base
         }
     }
     abstract public class Controller<TGet, TAdd, TUpdate, TDelete> : Controller<TGet, TAdd, TUpdate>, IController<TAdd, TUpdate, TDelete>
-        where TGet : class, IGetDTO, new()
-        where TAdd : class, IAddDTO, new()
-        where TUpdate : class, IUpdateDTO, new()
-        where TDelete : class, IDeleteDTO, new()
+        where TGet : class, IGetDTO 
+        where TAdd : class, IAddDTO 
+        where TUpdate : class, IUpdateDTO 
+        where TDelete : class, IDeleteDTO 
     {
         public Controller(IService<TGet, TAdd, TUpdate> service) : base(service) { }
 

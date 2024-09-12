@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using YazilimciPazari.Backend.Domain.Entities.Concrete;
+using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base;
 
 namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Concrete
 {
-    public class UserCommentRepository<TContext> : Repository<UserComment, TContext>, IUserCommentRepository
-        where TContext : DbContext
+    public class UserCommentRepository : Repository<UserComment>, IUserCommentRepository
     {
-        public UserCommentRepository(TContext context) : base(context) { }
+        public UserCommentRepository(BaseContext context) : base(context) { }
     }
 }

@@ -34,7 +34,7 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Base
         virtual public IReturn<TDto> ReturnEmptyError<TDto>(string? message = null) => 
             new ErrorReturn<TDto>(message);
         virtual public IReturn<TDto> ConvertToReturn<TEntity, TDto>(IReturn<TEntity> result, IMapper mapper)
-            where TEntity : class, IEntity, new()
+            where TEntity : class, IEntity 
             where TDto : class, IGetDTO
         {
             if (result.Status)
@@ -51,7 +51,7 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Base
 
         virtual public IReturn<IEnumerable<TDto>> ConvertToReturn<TEntity, TDto>(IReturn<IEnumerable<TEntity>> result, IMapper mapper)
             where TDto : class, IGetDTO
-            where TEntity : class, IEntity, new()
+            where TEntity : class, IEntity 
         {
             if (result.Status)
             {
@@ -66,7 +66,7 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Base
         }
 
         virtual public IReturn<TEntity> ConvertToReturn<TEntity>(IReturn<TEntity> result)
-            where TEntity : class, IEntity, new()
+            where TEntity : class, IEntity 
         {
             if (result.Status)
             {
@@ -97,7 +97,7 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Base
     }
 
     abstract public class Service<TEntity> : Service, IService
-        where TEntity : class, IEntity, new()
+        where TEntity : class, IEntity 
     {
         internal readonly IRepository<TEntity> repository;
         internal readonly IMapper mapper;
@@ -115,7 +115,7 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Base
         }
     }
     abstract public class Service<TEntity, TResponse> : Service<TEntity>, IService<TResponse>
-        where TEntity : class, IEntity, new()
+        where TEntity : class, IEntity 
         where TResponse : class, IGetDTO
     {
         public Service(IRepository<TEntity> repository, IMapper mapper, IConfiguration configuration) : base(repository, mapper, configuration) { }
@@ -140,7 +140,7 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Base
         }
     }
     abstract public class Service<TEntity, TResponse, AddRequest> : Service<TEntity, TResponse>, IService<TResponse, AddRequest>
-        where TEntity : class, IEntity, new()
+        where TEntity : class, IEntity 
         where TResponse : class, IGetDTO
         where AddRequest : class, IAddDTO
     {
@@ -188,7 +188,7 @@ namespace YazilimciPazari.Backend.Service.DatabaseService.Base
     }
 
     abstract public class Service<TEntity, TResponse, AddRequest, UpdateRequest> : Service<TEntity, TResponse, AddRequest>, IService<TResponse, AddRequest, UpdateRequest>
-        where TEntity : class, IEntity, new()
+        where TEntity : class, IEntity 
         where TResponse : class, IGetDTO
         where AddRequest : class, IAddDTO
         where UpdateRequest : class, IUpdateDTO

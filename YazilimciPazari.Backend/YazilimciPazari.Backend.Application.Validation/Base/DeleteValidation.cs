@@ -5,7 +5,7 @@ using YazilimciPazari.Backend.Domain.DTOs.Abstract;
 namespace YazilimciPazari.Backend.Application.Validation.Base
 {
     public class DeleteValidation<T> : AbstractValidator<T>
-        where T : class, IDeleteDTO, new()
+        where T : class, IDeleteDTO 
     {
         public DeleteValidation()
         {

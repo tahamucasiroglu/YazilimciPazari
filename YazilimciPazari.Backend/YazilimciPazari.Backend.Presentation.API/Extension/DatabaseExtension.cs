@@ -26,21 +26,28 @@ namespace YazilimciPazari.Backend.Presentation.API.Extension
         static public async Task RestartDatabase(this WebApplication builder)
         {
             string? provider = builder.Configuration.GetValue<string>("DatabaseProvider");
-            switch (provider)
+
+            using (var scope = builder.Services.CreateScope())
             {
-                case "SqlServer":
-                    await builder.Restart(new SqlServerContext());
+                switch (provider)
+                {
+                    case "SqlServer":
+                        var sqlContext = scope.ServiceProvider.GetRequiredService<SqlServerContext>();
+                        await builder.Restart(sqlContext);
                         break;
 
-                case "PostgreSql":
-                    await builder.Restart(new PostgreSqlContext());
-                    break;
+                    case "PostgreSql":
+                        var pgContext = scope.ServiceProvider.GetRequiredService<PostgreSqlContext>();
+                        await builder.Restart(pgContext);
+                        break;
+                }
             }
         }
 
 
-        static public async Task Restart(this WebApplication builder, BaseContext context)
+        static private async Task Restart(this WebApplication builder, BaseContext context)
         {
+
             if (context.Database.CanConnect())
             {
                 Console.WriteLine("Database Siliniyor");
@@ -76,7 +83,7 @@ namespace YazilimciPazari.Backend.Presentation.API.Extension
         public static void AddPostgreSql(this WebApplicationBuilder builder)
         {
             string? connectionString = builder.Configuration.GetConnectionString("PostgreSqlString");
-            builder.Services.AddDbContext<BaseContext,PostgreSqlContext>(opt =>
+            builder.Services.AddDbContext<BaseContext, PostgreSqlContext>(opt =>
             {
                 opt.UseNpgsql(connectionString);
                 opt.UseLoggerFactory(LoggerFactory.Create(builder =>

@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using YazilimciPazari.Backend.Domain.Entities.Concrete;
+using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base;
 
 namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Concrete
 {
-    public class CompanyRepository<TContext> : Repository<Company, TContext>, ICompanyRepository
-        where TContext : DbContext
+    public class CompanyRepository : Repository<Company>, ICompanyRepository
     {
-        public CompanyRepository(TContext context) : base(context) { }
+        public CompanyRepository(BaseContext context) : base(context) { }
     }
 }

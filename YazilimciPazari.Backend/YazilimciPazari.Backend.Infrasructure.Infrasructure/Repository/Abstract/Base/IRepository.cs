@@ -9,116 +9,116 @@ using YazilimciPazari.Backend.Domain.Returns.Abstract;
 
 namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract.Base
 {
-    public interface IRepository<T> : IDisposable
-        where T : class, IEntity, new()
+    public interface IRepository<TEntity> : IDisposable
+        where TEntity : class, IEntity
     {
-        public IReturn<T> Get(Expression<Func<T, bool>> filter);
-        public Task<IReturn<T>> GetAsync(Expression<Func<T, bool>> filter);
+        public IReturn<TEntity> Get(Expression<Func<TEntity, bool>> filter);
+        public Task<IReturn<TEntity>> GetAsync(Expression<Func<TEntity, bool>> filter);
 
-        public IReturn<IEnumerable<T>> _GetAll<TOrder>(Expression<Func<T, bool>>? filter = null, Expression<Func<T, TOrder>>? order = null, bool Reserve = false, Range? TakeRange = null);
-        public IReturn<IEnumerable<T>> GetAll() => _GetAll<T>();
-        public IReturn<IEnumerable<T>> GetAll(Range TakeRange) => _GetAll<T>(TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAll(bool Reserve) => _GetAll<T>(Reserve: Reserve);
-        public IReturn<IEnumerable<T>> GetAll(bool Reserve, Range TakeRange) => _GetAll<T>(Reserve: Reserve, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAll<TOrder>(Expression<Func<T, TOrder>> order) => _GetAll<TOrder>(order: order);
-        public IReturn<IEnumerable<T>> GetAll<TOrder>(Expression<Func<T, TOrder>> order, Range TakeRange) => _GetAll<TOrder>(order: order, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAll<TOrder>(Expression<Func<T, TOrder>> order, bool Reserve) => _GetAll<TOrder>(order: order, Reserve: Reserve);
-        public IReturn<IEnumerable<T>> GetAll<TOrder>(Expression<Func<T, TOrder>> order, bool Reserve, Range TakeRange) => _GetAll<TOrder>(order: order, Reserve: Reserve, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAll(Expression<Func<T, bool>> filter) => _GetAll<T>(filter: filter);
-        public IReturn<IEnumerable<T>> GetAll(Expression<Func<T, bool>> filter, Range TakeRange) => _GetAll<T>(filter: filter, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAll(Expression<Func<T, bool>> filter, bool Reserve) => _GetAll<T>(filter: filter, Reserve: Reserve);
-        public IReturn<IEnumerable<T>> GetAll(Expression<Func<T, bool>> filter, bool Reserve, Range TakeRange) => _GetAll<T>(filter: filter, Reserve: Reserve, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAll<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order) => _GetAll<TOrder>(filter: filter, order: order);
-        public IReturn<IEnumerable<T>> GetAll<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, Range TakeRange) => _GetAll<TOrder>(filter: filter, order: order, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAll<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, bool Reserve) => _GetAll<TOrder>(filter: filter, order: order, Reserve: Reserve);
-        public IReturn<IEnumerable<T>> GetAll<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, bool Reserve, Range TakeRange) => _GetAll<TOrder>(filter: filter, order: order, Reserve: Reserve, TakeRange: TakeRange);
-
-
+        public IReturn<IEnumerable<TEntity>> _GetAll<TOrder>(Expression<Func<TEntity, bool>>? filter = null, Expression<Func<TEntity, TOrder>>? order = null, bool Reserve = false, Range? TakeRange = null);
+        public IReturn<IEnumerable<TEntity>> GetAll() => _GetAll<TEntity>();
+        public IReturn<IEnumerable<TEntity>> GetAll(Range TakeRange) => _GetAll<TEntity>(TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAll(bool Reserve) => _GetAll<TEntity>(Reserve: Reserve);
+        public IReturn<IEnumerable<TEntity>> GetAll(bool Reserve, Range TakeRange) => _GetAll<TEntity>(Reserve: Reserve, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAll<TOrder>(Expression<Func<TEntity, TOrder>> order) => _GetAll<TOrder>(order: order);
+        public IReturn<IEnumerable<TEntity>> GetAll<TOrder>(Expression<Func<TEntity, TOrder>> order, Range TakeRange) => _GetAll<TOrder>(order: order, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAll<TOrder>(Expression<Func<TEntity, TOrder>> order, bool Reserve) => _GetAll<TOrder>(order: order, Reserve: Reserve);
+        public IReturn<IEnumerable<TEntity>> GetAll<TOrder>(Expression<Func<TEntity, TOrder>> order, bool Reserve, Range TakeRange) => _GetAll<TOrder>(order: order, Reserve: Reserve, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAll(Expression<Func<TEntity, bool>> filter) => _GetAll<TEntity>(filter: filter);
+        public IReturn<IEnumerable<TEntity>> GetAll(Expression<Func<TEntity, bool>> filter, Range TakeRange) => _GetAll<TEntity>(filter: filter, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAll(Expression<Func<TEntity, bool>> filter, bool Reserve) => _GetAll<TEntity>(filter: filter, Reserve: Reserve);
+        public IReturn<IEnumerable<TEntity>> GetAll(Expression<Func<TEntity, bool>> filter, bool Reserve, Range TakeRange) => _GetAll<TEntity>(filter: filter, Reserve: Reserve, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAll<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order) => _GetAll<TOrder>(filter: filter, order: order);
+        public IReturn<IEnumerable<TEntity>> GetAll<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, Range TakeRange) => _GetAll<TOrder>(filter: filter, order: order, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAll<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, bool Reserve) => _GetAll<TOrder>(filter: filter, order: order, Reserve: Reserve);
+        public IReturn<IEnumerable<TEntity>> GetAll<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, bool Reserve, Range TakeRange) => _GetAll<TOrder>(filter: filter, order: order, Reserve: Reserve, TakeRange: TakeRange);
 
 
-        public Task<IReturn<IEnumerable<T>>> _GetAllAsync<TOrder>(Expression<Func<T, bool>>? filter = null, Expression<Func<T, TOrder>>? order = null, bool Reserve = false, Range? TakeRange = null);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync() => await _GetAllAsync<T>();
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync(Range TakeRange) => await _GetAllAsync<T>(TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync(bool Reserve) => await _GetAllAsync<T>(Reserve: Reserve);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync(bool Reserve, Range TakeRange) => await _GetAllAsync<T>(Reserve: Reserve, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync<TOrder>(Expression<Func<T, TOrder>> order) => await _GetAllAsync<TOrder>(order: order);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync<TOrder>(Expression<Func<T, TOrder>> order, Range TakeRange) => await _GetAllAsync<TOrder>(order: order, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync<TOrder>(Expression<Func<T, TOrder>> order, bool Reserve) => await _GetAllAsync<TOrder>(order: order, Reserve: Reserve);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync<TOrder>(Expression<Func<T, TOrder>> order, bool Reserve, Range TakeRange) => await _GetAllAsync<TOrder>(order: order, Reserve: Reserve, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync(Expression<Func<T, bool>> filter) => await _GetAllAsync<T>(filter: filter);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync(Expression<Func<T, bool>> filter, Range TakeRange) => await _GetAllAsync<T>(filter: filter, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync(Expression<Func<T, bool>> filter, bool Reserve) => await _GetAllAsync<T>(filter: filter, Reserve: Reserve);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync(Expression<Func<T, bool>> filter, bool Reserve, Range TakeRange) => await _GetAllAsync<T>(filter: filter, Reserve: Reserve, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order) => await _GetAllAsync<TOrder>(filter: filter, order: order);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, Range TakeRange) => await _GetAllAsync<TOrder>(filter: filter, order: order, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, bool Reserve) => await _GetAllAsync<TOrder>(filter: filter, order: order, Reserve: Reserve);
-        public async Task<IReturn<IEnumerable<T>>> GetAllAsync<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, bool Reserve, Range TakeRange) => await _GetAllAsync<TOrder>(filter: filter, order: order, Reserve: Reserve, TakeRange: TakeRange);
-
-        public IReturn<IEnumerable<T>> _GetAllDeleted<TOrder>(Expression<Func<T, bool>>? filter = null, Expression<Func<T, TOrder>>? order = null, bool Reserve = false, Range? TakeRange = null);
-        public IReturn<IEnumerable<T>> GetAllDeleted() => _GetAllDeleted<T>();
-        public IReturn<IEnumerable<T>> GetAllDeleted(Range TakeRange) => _GetAllDeleted<T>(TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAllDeleted(bool Reserve) => _GetAllDeleted<T>(Reserve: Reserve);
-        public IReturn<IEnumerable<T>> GetAllDeleted(bool Reserve, Range TakeRange) => _GetAllDeleted<T>(Reserve: Reserve, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAllDeleted<TOrder>(Expression<Func<T, TOrder>> order) => _GetAllDeleted<TOrder>(order: order);
-        public IReturn<IEnumerable<T>> GetAllDeleted<TOrder>(Expression<Func<T, TOrder>> order, Range TakeRange) => _GetAllDeleted<TOrder>(order: order, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAllDeleted<TOrder>(Expression<Func<T, TOrder>> order, bool Reserve) => _GetAllDeleted<TOrder>(order: order, Reserve: Reserve);
-        public IReturn<IEnumerable<T>> GetAllDeleted<TOrder>(Expression<Func<T, TOrder>> order, bool Reserve, Range TakeRange) => _GetAllDeleted<TOrder>(order: order, Reserve: Reserve, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAllDeleted(Expression<Func<T, bool>> filter) => _GetAllDeleted<T>(filter: filter);
-        public IReturn<IEnumerable<T>> GetAllDeleted(Expression<Func<T, bool>> filter, Range TakeRange) => _GetAllDeleted<T>(filter: filter, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAllDeleted(Expression<Func<T, bool>> filter, bool Reserve) => _GetAllDeleted<T>(filter: filter, Reserve: Reserve);
-        public IReturn<IEnumerable<T>> GetAllDeleted(Expression<Func<T, bool>> filter, bool Reserve, Range TakeRange) => _GetAllDeleted<T>(filter: filter, Reserve: Reserve, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAllDeleted<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order) => _GetAllDeleted<TOrder>(filter: filter, order: order);
-        public IReturn<IEnumerable<T>> GetAllDeleted<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, Range TakeRange) => _GetAllDeleted<TOrder>(filter: filter, order: order, TakeRange: TakeRange);
-        public IReturn<IEnumerable<T>> GetAllDeleted<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, bool Reserve) => _GetAllDeleted<TOrder>(filter: filter, order: order, Reserve: Reserve);
-        public IReturn<IEnumerable<T>> GetAllDeleted<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, bool Reserve, Range TakeRange) => _GetAllDeleted<TOrder>(filter: filter, order: order, Reserve: Reserve, TakeRange: TakeRange);
 
 
-        public Task<IReturn<IEnumerable<T>>> _GetAllDeletedAsync<TOrder>(Expression<Func<T, bool>>? filter = null, Expression<Func<T, TOrder>>? order = null, bool Reserve = false, Range? TakeRange = null);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync() => await _GetAllDeletedAsync<T>();
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync(Range TakeRange) => await _GetAllDeletedAsync<T>(TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync(bool Reserve) => await _GetAllDeletedAsync<T>(Reserve: Reserve);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync(bool Reserve, Range TakeRange) => await _GetAllDeletedAsync<T>(Reserve: Reserve, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync<TOrder>(Expression<Func<T, TOrder>> order) => await _GetAllDeletedAsync<TOrder>(order: order);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync<TOrder>(Expression<Func<T, TOrder>> order, Range TakeRange) => await _GetAllDeletedAsync<TOrder>(order: order, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync<TOrder>(Expression<Func<T, TOrder>> order, bool Reserve) => await _GetAllDeletedAsync<TOrder>(order: order, Reserve: Reserve);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync<TOrder>(Expression<Func<T, TOrder>> order, bool Reserve, Range TakeRange) => await _GetAllDeletedAsync<TOrder>(order: order, Reserve: Reserve, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync(Expression<Func<T, bool>> filter) => await _GetAllDeletedAsync<T>(filter: filter);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync(Expression<Func<T, bool>> filter, Range TakeRange) => await _GetAllDeletedAsync<T>(filter: filter, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync(Expression<Func<T, bool>> filter, bool Reserve) => await _GetAllDeletedAsync<T>(filter: filter, Reserve: Reserve);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync(Expression<Func<T, bool>> filter, bool Reserve, Range TakeRange) => await _GetAllDeletedAsync<T>(filter: filter, Reserve: Reserve, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order) => await _GetAllDeletedAsync<TOrder>(filter: filter, order: order);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, Range TakeRange) => await _GetAllDeletedAsync<TOrder>(filter: filter, order: order, TakeRange: TakeRange);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, bool Reserve) => await _GetAllDeletedAsync<TOrder>(filter: filter, order: order, Reserve: Reserve);
-        public async Task<IReturn<IEnumerable<T>>> GetAllDeletedAsync<TOrder>(Expression<Func<T, bool>> filter, Expression<Func<T, TOrder>> order, bool Reserve, Range TakeRange) => await _GetAllDeletedAsync<TOrder>(filter: filter, order: order, Reserve: Reserve, TakeRange: TakeRange);
+        public Task<IReturn<IEnumerable<TEntity>>> _GetAllAsync<TOrder>(Expression<Func<TEntity, bool>>? filter = null, Expression<Func<TEntity, TOrder>>? order = null, bool Reserve = false, Range? TakeRange = null);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync() => await _GetAllAsync<TEntity>();
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync(Range TakeRange) => await _GetAllAsync<TEntity>(TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync(bool Reserve) => await _GetAllAsync<TEntity>(Reserve: Reserve);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync(bool Reserve, Range TakeRange) => await _GetAllAsync<TEntity>(Reserve: Reserve, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync<TOrder>(Expression<Func<TEntity, TOrder>> order) => await _GetAllAsync<TOrder>(order: order);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync<TOrder>(Expression<Func<TEntity, TOrder>> order, Range TakeRange) => await _GetAllAsync<TOrder>(order: order, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync<TOrder>(Expression<Func<TEntity, TOrder>> order, bool Reserve) => await _GetAllAsync<TOrder>(order: order, Reserve: Reserve);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync<TOrder>(Expression<Func<TEntity, TOrder>> order, bool Reserve, Range TakeRange) => await _GetAllAsync<TOrder>(order: order, Reserve: Reserve, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync(Expression<Func<TEntity, bool>> filter) => await _GetAllAsync<TEntity>(filter: filter);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync(Expression<Func<TEntity, bool>> filter, Range TakeRange) => await _GetAllAsync<TEntity>(filter: filter, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync(Expression<Func<TEntity, bool>> filter, bool Reserve) => await _GetAllAsync<TEntity>(filter: filter, Reserve: Reserve);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync(Expression<Func<TEntity, bool>> filter, bool Reserve, Range TakeRange) => await _GetAllAsync<TEntity>(filter: filter, Reserve: Reserve, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order) => await _GetAllAsync<TOrder>(filter: filter, order: order);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, Range TakeRange) => await _GetAllAsync<TOrder>(filter: filter, order: order, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, bool Reserve) => await _GetAllAsync<TOrder>(filter: filter, order: order, Reserve: Reserve);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllAsync<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, bool Reserve, Range TakeRange) => await _GetAllAsync<TOrder>(filter: filter, order: order, Reserve: Reserve, TakeRange: TakeRange);
 
-        public IReturn<T> GetDeleted(Expression<Func<T, bool>> filter);
-        public Task<IReturn<T>> GetDeletedAsync(Expression<Func<T, bool>> filter);
+        public IReturn<IEnumerable<TEntity>> _GetAllDeleted<TOrder>(Expression<Func<TEntity, bool>>? filter = null, Expression<Func<TEntity, TOrder>>? order = null, bool Reserve = false, Range? TakeRange = null);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted() => _GetAllDeleted<TEntity>();
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted(Range TakeRange) => _GetAllDeleted<TEntity>(TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted(bool Reserve) => _GetAllDeleted<TEntity>(Reserve: Reserve);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted(bool Reserve, Range TakeRange) => _GetAllDeleted<TEntity>(Reserve: Reserve, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted<TOrder>(Expression<Func<TEntity, TOrder>> order) => _GetAllDeleted<TOrder>(order: order);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted<TOrder>(Expression<Func<TEntity, TOrder>> order, Range TakeRange) => _GetAllDeleted<TOrder>(order: order, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted<TOrder>(Expression<Func<TEntity, TOrder>> order, bool Reserve) => _GetAllDeleted<TOrder>(order: order, Reserve: Reserve);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted<TOrder>(Expression<Func<TEntity, TOrder>> order, bool Reserve, Range TakeRange) => _GetAllDeleted<TOrder>(order: order, Reserve: Reserve, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted(Expression<Func<TEntity, bool>> filter) => _GetAllDeleted<TEntity>(filter: filter);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted(Expression<Func<TEntity, bool>> filter, Range TakeRange) => _GetAllDeleted<TEntity>(filter: filter, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted(Expression<Func<TEntity, bool>> filter, bool Reserve) => _GetAllDeleted<TEntity>(filter: filter, Reserve: Reserve);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted(Expression<Func<TEntity, bool>> filter, bool Reserve, Range TakeRange) => _GetAllDeleted<TEntity>(filter: filter, Reserve: Reserve, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order) => _GetAllDeleted<TOrder>(filter: filter, order: order);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, Range TakeRange) => _GetAllDeleted<TOrder>(filter: filter, order: order, TakeRange: TakeRange);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, bool Reserve) => _GetAllDeleted<TOrder>(filter: filter, order: order, Reserve: Reserve);
+        public IReturn<IEnumerable<TEntity>> GetAllDeleted<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, bool Reserve, Range TakeRange) => _GetAllDeleted<TOrder>(filter: filter, order: order, Reserve: Reserve, TakeRange: TakeRange);
 
-        public IReturn<int> Count(Expression<Func<T, bool>>? filter = null);
-        public Task<IReturn<int>> CountAsync(Expression<Func<T, bool>>? filter = null);
 
-        public IReturn<bool> IsExist(Expression<Func<T, bool>> filter);
-        public Task<IReturn<bool>> IsExistAsync(Expression<Func<T, bool>> filter);
+        public Task<IReturn<IEnumerable<TEntity>>> _GetAllDeletedAsync<TOrder>(Expression<Func<TEntity, bool>>? filter = null, Expression<Func<TEntity, TOrder>>? order = null, bool Reserve = false, Range? TakeRange = null);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync() => await _GetAllDeletedAsync<TEntity>();
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync(Range TakeRange) => await _GetAllDeletedAsync<TEntity>(TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync(bool Reserve) => await _GetAllDeletedAsync<TEntity>(Reserve: Reserve);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync(bool Reserve, Range TakeRange) => await _GetAllDeletedAsync<TEntity>(Reserve: Reserve, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync<TOrder>(Expression<Func<TEntity, TOrder>> order) => await _GetAllDeletedAsync<TOrder>(order: order);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync<TOrder>(Expression<Func<TEntity, TOrder>> order, Range TakeRange) => await _GetAllDeletedAsync<TOrder>(order: order, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync<TOrder>(Expression<Func<TEntity, TOrder>> order, bool Reserve) => await _GetAllDeletedAsync<TOrder>(order: order, Reserve: Reserve);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync<TOrder>(Expression<Func<TEntity, TOrder>> order, bool Reserve, Range TakeRange) => await _GetAllDeletedAsync<TOrder>(order: order, Reserve: Reserve, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync(Expression<Func<TEntity, bool>> filter) => await _GetAllDeletedAsync<TEntity>(filter: filter);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync(Expression<Func<TEntity, bool>> filter, Range TakeRange) => await _GetAllDeletedAsync<TEntity>(filter: filter, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync(Expression<Func<TEntity, bool>> filter, bool Reserve) => await _GetAllDeletedAsync<TEntity>(filter: filter, Reserve: Reserve);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync(Expression<Func<TEntity, bool>> filter, bool Reserve, Range TakeRange) => await _GetAllDeletedAsync<TEntity>(filter: filter, Reserve: Reserve, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order) => await _GetAllDeletedAsync<TOrder>(filter: filter, order: order);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, Range TakeRange) => await _GetAllDeletedAsync<TOrder>(filter: filter, order: order, TakeRange: TakeRange);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, bool Reserve) => await _GetAllDeletedAsync<TOrder>(filter: filter, order: order, Reserve: Reserve);
+        public async Task<IReturn<IEnumerable<TEntity>>> GetAllDeletedAsync<TOrder>(Expression<Func<TEntity, bool>> filter, Expression<Func<TEntity, TOrder>> order, bool Reserve, Range TakeRange) => await _GetAllDeletedAsync<TOrder>(filter: filter, order: order, Reserve: Reserve, TakeRange: TakeRange);
 
-        public IReturn<T> Add(T entity);
-        public IReturn<IEnumerable<T>> Add(IEnumerable<T> entity);
-        public Task<IReturn<T>> AddAsync(T entity);
-        public Task<IReturn<IEnumerable<T>>> AddAsync(IEnumerable<T> entity);
+        public IReturn<TEntity> GetDeleted(Expression<Func<TEntity, bool>> filter);
+        public Task<IReturn<TEntity>> GetDeletedAsync(Expression<Func<TEntity, bool>> filter);
 
-        public IReturn<T> Update(T entity);
-        public IReturn<IEnumerable<T>> Update(IEnumerable<T> entity);
-        public Task<IReturn<T>> UpdateAsync(T entity);
-        public Task<IReturn<IEnumerable<T>>> UpdateAsync(IEnumerable<T> entity);
+        public IReturn<int> Count(Expression<Func<TEntity, bool>>? filter = null);
+        public Task<IReturn<int>> CountAsync(Expression<Func<TEntity, bool>>? filter = null);
 
-        public IReturn<T> Delete(T entity);
-        public IReturn<IEnumerable<T>> Delete(IEnumerable<T> entity);
-        public Task<IReturn<T>> DeleteAsync(T entity);
-        public Task<IReturn<IEnumerable<T>>> DeleteAsync(IEnumerable<T> entity);
+        public IReturn<bool> IsExist(Expression<Func<TEntity, bool>> filter);
+        public Task<IReturn<bool>> IsExistAsync(Expression<Func<TEntity, bool>> filter);
 
-        public IReturn<T> Save(T entity);
-        public IReturn<IEnumerable<T>> Save(IEnumerable<T> entity);
-        public Task<IReturn<T>> SaveAsync(T entity);
-        public Task<IReturn<IEnumerable<T>>> SaveAsync(IEnumerable<T> entity);
+        public IReturn<TEntity> Add(TEntity entity);
+        public IReturn<IEnumerable<TEntity>> Add(IEnumerable<TEntity> entity);
+        public Task<IReturn<TEntity>> AddAsync(TEntity entity);
+        public Task<IReturn<IEnumerable<TEntity>>> AddAsync(IEnumerable<TEntity> entity);
+
+        public IReturn<TEntity> Update(TEntity entity);
+        public IReturn<IEnumerable<TEntity>> Update(IEnumerable<TEntity> entity);
+        public Task<IReturn<TEntity>> UpdateAsync(TEntity entity);
+        public Task<IReturn<IEnumerable<TEntity>>> UpdateAsync(IEnumerable<TEntity> entity);
+
+        public IReturn<TEntity> Delete(TEntity entity);
+        public IReturn<IEnumerable<TEntity>> Delete(IEnumerable<TEntity> entity);
+        public Task<IReturn<TEntity>> DeleteAsync(TEntity entity);
+        public Task<IReturn<IEnumerable<TEntity>>> DeleteAsync(IEnumerable<TEntity> entity);
+
+        public IReturn<TEntity> Save(TEntity entity);
+        public IReturn<IEnumerable<TEntity>> Save(IEnumerable<TEntity> entity);
+        public Task<IReturn<TEntity>> SaveAsync(TEntity entity);
+        public Task<IReturn<IEnumerable<TEntity>>> SaveAsync(IEnumerable<TEntity> entity);
 
         public IReturn<TNull> CheckIsNull<TNull>(TNull? result);
     }

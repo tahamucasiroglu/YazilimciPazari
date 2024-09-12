@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using YazilimciPazari.Backend.Domain.Entities.Concrete;
+using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base;
 
 namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Concrete
 {
-    public class ProjectRepository<TContext> : Repository<Project, TContext>, IProjectRepository
-        where TContext : DbContext
+    public class ProjectRepository : Repository<Project>, IProjectRepository
     {
-        public ProjectRepository(TContext context) : base(context) { }
+        public ProjectRepository(BaseContext context) : base(context) { }
     }
 }

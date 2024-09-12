@@ -9,7 +9,7 @@ using YazilimciPazari.Backend.Domain.DTOs.Abstract;
 namespace YazilimciPazari.Backend.Application.Validation.Base
 {
     public class AddValidation<T> : AbstractValidator<T>
-        where T : class, IAddDTO, new()
+        where T : class, IAddDTO
     {
         public AddValidation() 
         {
