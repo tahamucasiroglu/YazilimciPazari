@@ -1,8 +1,6 @@
 ﻿using YazilimciPazari.Backend.Domain.Entities.Abstract;
 using YazilimciPazari.Backend.Domain.Entities.Base;
 using YazilimciPazari.Backend.Domain.Entities.Concrete;
-using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base;
-using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.SqlServerContext;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract.Base;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base;
@@ -28,8 +26,6 @@ namespace YazilimciPazari.Backend.Presentation.API.Extension
             builder.Services.AddScoped<IUserCommentRepository, UserCommentRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserSkillRepository, UserSkillRepository>();
-
-
 
 
             builder.Services.AddScoped<ICommentService, CommentService>();

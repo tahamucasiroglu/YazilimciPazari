@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using YazilimciPazari.Backend.Domain.Entities.Concrete;
-using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base;
+using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base;
 
@@ -13,6 +13,6 @@ namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Concret
 {
     public class CommentRepository : Repository<Comment>, ICommentRepository
     {
-        public CommentRepository(BaseContext context) : base(context) { }
+        public CommentRepository(SqlServerContext context) : base(context) { }
     }
 }

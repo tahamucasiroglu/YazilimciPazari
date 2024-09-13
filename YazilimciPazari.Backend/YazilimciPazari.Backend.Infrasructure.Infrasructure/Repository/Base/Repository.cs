@@ -4,7 +4,7 @@ using YazilimciPazari.Backend.Domain.Entities.Abstract;
 using YazilimciPazari.Backend.Domain.Extensions;
 using YazilimciPazari.Backend.Domain.Returns.Abstract;
 using YazilimciPazari.Backend.Domain.Returns.Concrete;
-using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base;
+using YazilimciPazari.Backend.Infrasructure.Infrasructure.Context;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Abstract.Base;
 
 namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base
@@ -12,8 +12,8 @@ namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base
     public class Repository<TEntity> : IRepository<TEntity>
         where TEntity : class, IEntity, new()
     {
-        internal readonly BaseContext context;
-        public Repository(BaseContext context)
+        internal readonly SqlServerContext context;
+        public Repository(SqlServerContext context)
         {
             this.context = context;
         }
@@ -35,7 +35,7 @@ namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base
             IQueryable<TEntity> result = context.Set<TEntity>().IgnoreQueryFilters().AsNoTracking();
             if (filter != null) result = result.Where(filter);
             if (order != null) result = result.OrderBy(order);
-            if (TakeRange != null) result = result.Take((Range)TakeRange);
+            if (TakeRange != null) result = result.Take(TakeRange ?? throw new ArgumentNullException());
             if (Reserve) result = result.Reverse();
             return new SuccessReturn<IEnumerable<TEntity>>(result, "Başarıyla Getirildi");
         }
@@ -46,7 +46,7 @@ namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Repository.Base
             IQueryable<TEntity> result = context.Set<TEntity>().IgnoreQueryFilters().AsNoTracking();
             if (filter != null) result = result.Where(filter);
             if (order != null) result = result.OrderBy(order);
-            if (TakeRange != null) result = result.Take((Range)TakeRange);
+            if (TakeRange != null) result = result.Take(TakeRange ?? throw new ArgumentNullException());
             if (Reserve) result = result.Reverse();
 
             return await Task.FromResult(new SuccessReturn<IEnumerable<TEntity>>(result, "Başarıyla Getirildi"));

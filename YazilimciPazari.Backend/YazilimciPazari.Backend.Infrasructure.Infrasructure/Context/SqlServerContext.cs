@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using YazilimciPazari.Backend.Domain.Entities.Concrete;
 using YazilimciPazari.Backend.Infrasructure.Infrasructure.Extension;
 
-namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base
+namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Context
 {
-    public class BaseContext : DbContext
+    public class SqlServerContext : DbContext
     {
-        public BaseContext() { }
-        public BaseContext(DbContextOptions<BaseContext> options) : base(options) { }
+        public SqlServerContext() { }
+        public SqlServerContext(DbContextOptions<SqlServerContext> options) : base(options) { }
 
         virtual public DbSet<Comment> Comments { get; set; }
         virtual public DbSet<CompanyComment> CompanyComments { get; set; }
@@ -25,8 +25,15 @@ namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Context.Base
         virtual public DbSet<User> Users { get; set; }
         virtual public DbSet<UserSkill> UserSkills { get; set; }
 
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB; Database=YazilimciPazari; Trusted_Connection=True;");
+        //    base.OnConfiguring(optionsBuilder);
+        //}
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.UseTurkishSqlServer();
             modelBuilder.GetAllConfigsAuto();
             modelBuilder.SetSchema();
             base.OnModelCreating(modelBuilder);
