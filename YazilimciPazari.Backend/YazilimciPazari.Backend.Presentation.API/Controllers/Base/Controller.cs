@@ -4,7 +4,6 @@ using YazilimciPazari.Backend.Domain.DTOs.Abstract;
 using YazilimciPazari.Backend.Domain.Returns.Concrete;
 using YazilimciPazari.Backend.Domain.Returns.ConstantReturn;
 using YazilimciPazari.Backend.Presentation.API.Attributes;
-using YazilimciPazari.Backend.Presentation.API.Controllers.Base.Abstract;
 using YazilimciPazari.Backend.Service.DatabaseService.Abstract.Base;
 
 namespace YazilimciPazari.Backend.Presentation.API.Controllers.Base
@@ -25,25 +24,25 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers.Base
         {
             this.service = service;
         }
-        [HttpPost("[action]")]
+        [HttpGet("[action]")]
         [ServiceFilter(typeof(LogConnectionAttribute))]
         public IActionResult GetAll()
         {
             return new OkObjectResult(ModelState.IsValid ? service.GetAll() : new NoValidDataError());
         }
-        [HttpPost("[action]")]
+        [HttpGet("[action]Async")]
         [ServiceFilter(typeof(LogConnectionAttribute))]
         public async Task<IActionResult> GetAllAsync()
         {
             return new OkObjectResult(ModelState.IsValid ? await service.GetAllAsync() : new NoValidDataError());
         }
-        [HttpPost("[action]")]
+        [HttpGet("[action]")]
         [ServiceFilter(typeof(LogConnectionAttribute))]
         public IActionResult GetById(Guid id)
         {
             return new OkObjectResult(ModelState.IsValid ? service.GetById(id) : new NoValidDataError());
         }
-        [HttpPost("[action]")]
+        [HttpGet("[action]Async")]
         [ServiceFilter(typeof(LogConnectionAttribute))]
         public async Task<IActionResult> GetByIdAsync(Guid id)
         {
@@ -65,7 +64,7 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers.Base
         {
             return new OkObjectResult(ModelState.IsValid ? service.Add(survey) : new NoValidDataError());
         }
-        [HttpPost("[action]")]
+        [HttpPost("[action]Async")]
         [ServiceFilter(typeof(LogConnectionAttribute))]
         public async Task<IActionResult> AddAsync([FromBody] TAdd survey)
         {
@@ -89,7 +88,7 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers.Base
             return new OkObjectResult(ModelState.IsValid ? service.Update(survey) : new NoValidDataError());
         }
 
-        [HttpPut("[action]")]
+        [HttpPut("[action]Async")]
         [ServiceFilter(typeof(LogConnectionAttribute))]
         public async Task<IActionResult> UpdateAsync([FromBody] TUpdate survey)
         {
@@ -108,10 +107,10 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers.Base
         [ServiceFilter(typeof(LogConnectionAttribute))]
         public IActionResult Delete([FromBody] TDelete survey)
         {
-            return new OkObjectResult(ModelState.IsValid ? service.DeleteAsync(survey.Id) : new NoValidDataError());
+            return new OkObjectResult(ModelState.IsValid ? service.Delete(survey.Id) : new NoValidDataError());
         }
 
-        [HttpDelete("[action]")]
+        [HttpDelete("[action]Async")]
         [ServiceFilter(typeof(LogConnectionAttribute))]
         public async Task<IActionResult> DeleteAsync([FromBody] TDelete survey)
         {

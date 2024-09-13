@@ -9,7 +9,6 @@ namespace YazilimciPazari.Backend.Presentation.API.Extension
 
         static public void AddDatabase(this WebApplicationBuilder builder)
         {
-            string? provider = builder.Configuration.GetValue<string>("DatabaseProvider");
             string? connectionString = builder.Configuration.GetConnectionString("SqlServerString");
             builder.Services.AddDbContext<SqlServerContext>(opt =>
             {
@@ -21,11 +20,11 @@ namespace YazilimciPazari.Backend.Presentation.API.Extension
                 }));
                 opt.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             });
+            Console.WriteLine("Db eklendi");
         }
 
         static public async Task RestartDatabase(this WebApplication builder)
         {
-            string? provider = builder.Configuration.GetValue<string>("DatabaseProvider");
             var sqlContext = builder.Services.CreateScope().ServiceProvider.GetRequiredService<SqlServerContext>();
             if (sqlContext.Database.CanConnect())
             {

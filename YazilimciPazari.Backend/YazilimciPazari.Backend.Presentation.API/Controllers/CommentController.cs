@@ -12,7 +12,6 @@ namespace YazilimciPazari.Backend.Presentation.API.Controllers
     [ApiController]
     public class CommentController : Controller<GetCommentDTO, AddCommentDTO, UpdateCommentDTO, DeleteCommentDTO>
     {
-       
         public CommentController(ICommentService service) : base(service) 
         {
                
