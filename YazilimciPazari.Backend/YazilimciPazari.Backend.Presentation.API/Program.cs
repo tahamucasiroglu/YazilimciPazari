@@ -25,7 +25,7 @@ internal class Program
         builder.AddDatabase(); //Extension
         builder.AddDependencyInjections(); //Extension
         builder.AddScoped(); //Extension
-        builder.AddSingleton();
+        builder.AddSingleton(); //Extension
         builder.SetAnyCors(); //Extension
 
         builder.Services.AddControllers();
