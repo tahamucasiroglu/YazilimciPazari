@@ -18,6 +18,8 @@ export default function Header() {
           <div className='col-md-6 d-flex justify-content-end'> 
             <Link to='/' className='btn btn-link text-decoration-none text-white fs-4'>Anasayfa</Link>
             <Link to='/profile' className='btn btn-link text-decoration-none text-white fs-4'>Profil</Link>
+            <Link to='/login' className='btn btn-link text-decoration-none text-white fs-4'>Giriş Yap</Link>
+            <Link to='/singup' className='btn btn-link text-decoration-none text-white fs-4'>Kayıt Ol</Link>
             <IconButton onClick={() => setOpen(true)}>
               <ErrorOutline className='text-white fs-2' />
             </IconButton>

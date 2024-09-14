@@ -1,14 +1,122 @@
-.zoomable {
-    transition: transform 0.3s ease-in-out; /* Animasyon için geçiş süresi ve tipi */
-    display: block; /* Inline elementlerde scale doğru çalışmayabilir */
-  }
-
-  .zoomable:hover {
-    transform: scale(1.2); /* Normal boyutunun %110'u kadar büyüt */
-  }
-
-  .mainCard{
-    margin: 1%;
-    margin-top: -30%;
-    
+/* .backgroundImage{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
+
+.mainCard{
+  margin: 1px;
+  margin-top: -55%;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7{
+  animation: slideUp linear;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover{
+  animation: zoomAnimation 0.3s linear forwards;
+}
+
+.card1, .card7{
+  animation-duration: 1.45s;
+}
+.card2, .card6{
+  animation-duration: 1.3s;
+}
+.card3, .card5{
+  animation-duration: 1.15s;
+}
+.card4{
+  animation-duration: 1s;
+}
+
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(150vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); 
+    opacity: 1;
+  }
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1, 1); 
+  }
+  100% {
+    transform: scale(1.3, 1.3); 
+  }
+}
+
+@media (max-width: 768px) {
+  .card1, .card7 {
+   display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .card1, .card2, .card6, .card7 {
+    display: none; 
+  }
+}
+ */
+
+
+ .backgroundImage{
+  margin-top: -10px;
+}
+
+.mainCard{
+  margin: 1px;
+  margin-top: -55%;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7{
+  transition: transform 0.3s ease-in-out;
+  animation: slideUp linear;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover{
+  transform: scale(1.2); 
+}
+
+.card1, .card7{
+  animation-duration: 1.45s;
+}
+.card2, .card6{
+  animation-duration: 1.3s;
+}
+.card3, .card5{
+  animation-duration: 1.15s;
+}
+.card4{
+  animation-duration: 1s;
+}
+
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(150vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); 
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .card1, .card7 {
+   display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .card1, .card2, .card6, .card7 {
+    display: none; 
+  }
+}
+

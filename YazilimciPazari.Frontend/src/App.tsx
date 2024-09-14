@@ -9,6 +9,8 @@ import About from './Pages/About/About'
 import Contact from './Pages/Contact/Contact'
 import Privacy from './Pages/Privacy/Privacy'
 import Test from './Pages/Test/Test'
+import SingUp from './Pages/SingUp/SingUp'
+import Login from './Pages/Login/Login'
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/privacy' element={<Privacy/>}/>
       <Route path='/test' element={<Test/>}/>
+      <Route path='/singup' element={<SingUp/>}/>
+      <Route path='/login' element={<Login/>}/>
       <Route path='*' element={<Page404/>}/>
       </Routes> 
       </div>

@@ -7,7 +7,7 @@ export interface SimpleDialogProps {
 }
 
 export default function InfoPlayer(props: SimpleDialogProps) {
-  const audioRef = useRef(new Audio('/İnfoSound.mp3'));
+  const audioRef = useRef(new Audio('/Sounds/İnfoSound.mp3'));
   const { open, setOpen } = props;
 
   useEffect(() => {
