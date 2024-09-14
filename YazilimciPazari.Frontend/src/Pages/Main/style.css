@@ -1,0 +1,14 @@
+.zoomable {
+    transition: transform 0.3s ease-in-out; /* Animasyon için geçiş süresi ve tipi */
+    display: block; /* Inline elementlerde scale doğru çalışmayabilir */
+  }
+
+  .zoomable:hover {
+    transform: scale(1.2); /* Normal boyutunun %110'u kadar büyüt */
+  }
+
+  .mainCard{
+    margin: 1%;
+    margin-top: -30%;
+    
+}
