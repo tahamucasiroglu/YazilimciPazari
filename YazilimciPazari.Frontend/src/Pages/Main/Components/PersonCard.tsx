@@ -18,7 +18,7 @@ export default function PersonCard(profile:personCardType) {
                 component="img"
                 height="140"
                 image={profile.image}
-                alt={profile.name + "\n" + profile.surname}
+                alt= {profile.name + "\n" + profile.surname}
                 sx={{ width: 150, height: 150, borderRadius: '50%', ml: 5, mr:5, mt: 2 }}
                 />
                 <CardContent>

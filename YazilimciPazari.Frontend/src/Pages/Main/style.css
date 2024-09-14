@@ -67,10 +67,13 @@
 
  .backgroundImage{
   margin-top: -10px;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .mainCard{
-  margin: 1px;
   margin-top: -55%;
 }
 

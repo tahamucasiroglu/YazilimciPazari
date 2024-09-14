@@ -9,7 +9,7 @@ export default function Footer() {
   const [errorAlert, setErrorAlert] = useState('d-none');
 
   return (
-    <footer className="bg-dark text-white mt-5 py-4 text-center ">
+    <footer  className="bg-dark text-white mt-5 py-4 text-center" style={{}}>
       <div className="container">
         <p>© 2024 Yazılımcı Pazarı. Tüm hakları saklıdır.</p>
         <div>

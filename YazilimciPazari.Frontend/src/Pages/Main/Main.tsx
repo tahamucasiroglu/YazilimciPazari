@@ -8,7 +8,7 @@ import './style.css'
 export default function Main() {
   return (
     <div className=''>
-      <img src={MainBackground} className='backgroundImage w-100 img-fluid' alt='yazılım pazara yazilim pazari sitesi backgroun resmi arkaplan resmi'/>
+      <img src={MainBackground} className='backgroundImage w-100 ' alt='yazılım pazara yazilim pazari sitesi backgroun resmi arkaplan resmi'/>
       <div className='d-flex justify-content-center mainCard'>
       <div className='card1'><PersonCard id={1} age={25} description={"Fake / Sahte İnsan 1".repeat(10) } image={DefaultMan} name={"Ali"} surname={"Şehzade"} /></div>
       <div className='card2'><PersonCard id={2} age={25} description={"Fake / Sahte İnsan 2".repeat(10)} image={DefaultMan} name={"Mehmet"} surname={"Özpalamutçuoğlu"} /></div>
