@@ -9,7 +9,7 @@ export default function Footer() {
   const [errorAlert, setErrorAlert] = useState('d-none');
 
   return (
-    <footer  className="bg-dark text-white mt-5 py-4 text-center" style={{}}>
+    <footer  className="bg-dark text-white py-4 text-center position-absolute top-100 w-100" style={{}}>
       <div className="container">
         <p>© 2024 Yazılımcı Pazarı. Tüm hakları saklıdır.</p>
         <div>
@@ -31,7 +31,7 @@ export default function Footer() {
         </Alert>
         <div className="mt-3">
           <input type="email" placeholder="E-posta adresiniz" className="mr-2" value={email} onChange={e => setEmail(e.target.value)} />
-          <button className="btn btn-primary" onClick={()=>SubscribeMail(email, setSuccessAlert, setErrorAlert)}>Abone Ol</button>
+          <button className="btn btn-primary" onClick={()=>{SubscribeMail(email, setSuccessAlert, setErrorAlert); setEmail("");}}>Abone Ol</button>
         </div>
       </div>
     </footer>

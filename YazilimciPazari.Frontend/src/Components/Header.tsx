@@ -8,7 +8,7 @@ import { useState } from 'react';
 export default function Header() {
   const [open, setOpen] = useState(false)
   return (
-    <header className="bg-dark p-1 mb-2 ps-5  pe-5" > 
+    <header className="bg-dark p-1 ps-5  pe-5" > 
         <div className='row align-items-center'> 
           <div className='col-md-6'> 
           <Link to='/' className='btn btn-link'>

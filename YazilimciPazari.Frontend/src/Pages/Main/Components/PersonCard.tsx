@@ -13,13 +13,13 @@ export default function PersonCard(profile:personCardType) {
     const linkUrl = `profile/${profile.id}`
     return (
         <Link to={linkUrl} className='text-decoration-none'>
-            <Card sx={{ maxWidth: 345, m: 2 }}>
+            <Card sx={{ maxWidth: 345, m: 1 }}>
                 <CardMedia
                 component="img"
                 height="140"
                 image={profile.image}
                 alt= {profile.name + "\n" + profile.surname}
-                sx={{ width: 150, height: 150, borderRadius: '50%', ml: 5, mr:5, mt: 2 }}
+                sx={{ width: "50%", height: "50%", borderRadius: '50%', display: "block", ml: "auto", mr:"auto"}}
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center' }}>

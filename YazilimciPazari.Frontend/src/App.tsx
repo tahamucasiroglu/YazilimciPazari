@@ -16,18 +16,18 @@ function App() {
   return (
     <div id='root'>
       <div className='content-wrap'>
-       <Header />
-      <Routes>
-      <Route path='/' element={<Main/>}/>
-      <Route path='/profile' element={<Profile/>}/>
-      <Route path='/about' element={<About/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-      <Route path='/privacy' element={<Privacy/>}/>
-      <Route path='/test' element={<Test/>}/>
-      <Route path='/singup' element={<SingUp/>}/>
-      <Route path='/login' element={<Login/>}/>
-      <Route path='*' element={<Page404/>}/>
-      </Routes> 
+        <Header />
+        <Routes>
+          <Route path='/' element={<Main/>}/>
+          <Route path='/profile' element={<Profile/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/privacy' element={<Privacy/>}/>
+          <Route path='/test' element={<Test/>}/>
+          <Route path='/singup' element={<SingUp/>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='*' element={<Page404/>}/>
+        </Routes> 
       </div>
       <Footer />
     </div>

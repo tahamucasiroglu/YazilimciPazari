@@ -65,17 +65,9 @@
  */
 
 
- .backgroundImage{
-  margin-top: -10px;
-  z-index: -1;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 
-.mainCard{
-  margin-top: -55%;
-}
+
+
 
 .card1, .card2, .card3, .card4, .card5, .card6, .card7{
   transition: transform 0.3s ease-in-out;
@@ -83,8 +75,10 @@
 }
 
 .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover{
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
+
+
 
 .card1, .card7{
   animation-duration: 1.45s;
