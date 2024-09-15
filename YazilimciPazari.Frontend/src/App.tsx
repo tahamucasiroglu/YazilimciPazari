@@ -14,8 +14,8 @@ import Login from './Pages/Login/Login'
 
 function App() {
   return (
-    <div id='root'>
-      <div className='content-wrap'>
+    <div id='root' className='d-flex flex-column mb-2'>
+      <div className='p-0'>
         <Header />
         <Routes>
           <Route path='/' element={<Main/>}/>
@@ -29,7 +29,9 @@ function App() {
           <Route path='*' element={<Page404/>}/>
         </Routes> 
       </div>
-      <Footer />
+      <div className='p-0'>
+        <Footer />
+      </div>
     </div>
   )
 }

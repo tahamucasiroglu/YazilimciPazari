@@ -9,7 +9,7 @@ export default function Footer() {
   const [errorAlert, setErrorAlert] = useState('d-none');
 
   return (
-    <footer  className="bg-dark text-white py-4 text-center position-absolute top-100 w-100" style={{}}>
+    <footer  className="bg-dark text-white p-4 text-center top-100 w-100" style={{}}>
       <div className="container">
         <p>© 2024 Yazılımcı Pazarı. Tüm hakları saklıdır.</p>
         <div>

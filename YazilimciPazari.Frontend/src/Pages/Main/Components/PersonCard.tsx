@@ -13,7 +13,7 @@ export default function PersonCard(profile:personCardType) {
     const linkUrl = `profile/${profile.id}`
     return (
         <Link to={linkUrl} className='text-decoration-none'>
-            <Card sx={{ maxWidth: 345, m: 1 }}>
+            <Card sx={{ maxWidth: 235, m: 1 }}>
                 <CardMedia
                 component="img"
                 height="140"
