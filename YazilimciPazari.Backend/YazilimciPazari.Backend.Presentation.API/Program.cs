@@ -34,11 +34,15 @@ internal class Program
         builder.Services.AddSwaggerGen();
 
 
+        builder.SetIdentity(); //Extension
+        builder.SetJWT(); //Extension
+
+
         var app = builder.Build();
 
         app.UsePathBase("/");
 
-        await app.RestartDatabase(); //Extension
+        //await app.RestartDatabase(); //Extension
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
@@ -51,6 +55,7 @@ internal class Program
 
         app.UseHttpsRedirection();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.MapControllers();

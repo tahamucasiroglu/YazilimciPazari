@@ -38,8 +38,7 @@ namespace YazilimciPazari.Backend.Presentation.API.Extension
             builder.Services.AddScoped<IUserCommentService, UserCommentService>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IUserSkillService, UserSkillService>();
-
-
+            builder.Services.AddScoped<ILoginService, LoginService>();
         }
     }
 }

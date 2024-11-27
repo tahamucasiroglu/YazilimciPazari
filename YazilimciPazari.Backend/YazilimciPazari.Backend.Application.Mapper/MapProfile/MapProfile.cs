@@ -76,6 +76,9 @@ namespace YazilimciPazari.Backend.Application.Mapper.MapProfile
             CreateMap<AddUserDTO, User>().DefaultAddMapConfig();
             CreateMap<UpdateUserDTO, User>().DefaultUpdateMapConfig();
             CreateMap<DeleteUserDTO, User>().DefaultDeleteMapConfig();
+            CreateMap<RegisterUserDTO, User>()
+                .ForMember(dest => dest.CreateDate, opt => opt.MapFrom(src => DateTime.UtcNow))
+                .ForMember(dest => dest.IsDeleted, opt => opt.MapFrom(src => false));
             CreateMap<User, GetUserDTO>();
             #endregion
 

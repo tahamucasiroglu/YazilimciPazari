@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.presentation.api\\extension\\filldatabaseextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|solutionrelative:yazilimcipazari.backend.presentation.api\\extension\\filldatabaseextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66F54E40-A959-4B65-B198-0FDAF68D2E6D}|YazilimciPazari.Backend.Infrasructure.Infrasructure\\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.infrasructure.infrasructure\\repository\\abstract\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F54E40-A959-4B65-B198-0FDAF68D2E6D}|YazilimciPazari.Backend.Infrasructure.Infrasructure\\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj|solutionrelative:yazilimcipazari.backend.infrasructure.infrasructure\\repository\\abstract\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|solutionrelative:yazilimcipazari.backend.presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EECC2494-5A3D-45AE-9BF7-2E20C0723F6D}|YazilimciPazari.Backend.Service.DatabaseService\\YazilimciPazari.Backend.Service.DatabaseService.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.service.databaseservice\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECC2494-5A3D-45AE-9BF7-2E20C0723F6D}|YazilimciPazari.Backend.Service.DatabaseService\\YazilimciPazari.Backend.Service.DatabaseService.csproj|solutionrelative:yazilimcipazari.backend.service.databaseservice\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F54E40-A959-4B65-B198-0FDAF68D2E6D}|YazilimciPazari.Backend.Infrasructure.Infrasructure\\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.infrasructure.infrasructure\\repository\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F54E40-A959-4B65-B198-0FDAF68D2E6D}|YazilimciPazari.Backend.Infrasructure.Infrasructure\\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj|solutionrelative:yazilimcipazari.backend.infrasructure.infrasructure\\repository\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F54E40-A959-4B65-B198-0FDAF68D2E6D}|YazilimciPazari.Backend.Infrasructure.Infrasructure\\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.infrasructure.infrasructure\\repository\\concrete\\usercommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F54E40-A959-4B65-B198-0FDAF68D2E6D}|YazilimciPazari.Backend.Infrasructure.Infrasructure\\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj|solutionrelative:yazilimcipazari.backend.infrasructure.infrasructure\\repository\\concrete\\usercommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{861F09A8-5BFD-4E7B-8D01-3778AE1B012C}|YazilimciPazari.Backend.Domain.DTOs\\YazilimciPazari.Backend.Domain.DTOs.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.dtos\\concrete\\user\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861F09A8-5BFD-4E7B-8D01-3778AE1B012C}|YazilimciPazari.Backend.Domain.DTOs\\YazilimciPazari.Backend.Domain.DTOs.csproj|solutionrelative:yazilimcipazari.backend.domain.dtos\\concrete\\user\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EECC2494-5A3D-45AE-9BF7-2E20C0723F6D}|YazilimciPazari.Backend.Service.DatabaseService\\YazilimciPazari.Backend.Service.DatabaseService.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.service.databaseservice\\concrete\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECC2494-5A3D-45AE-9BF7-2E20C0723F6D}|YazilimciPazari.Backend.Service.DatabaseService\\YazilimciPazari.Backend.Service.DatabaseService.csproj|solutionrelative:yazilimcipazari.backend.service.databaseservice\\concrete\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.presentation.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|solutionrelative:yazilimcipazari.backend.presentation.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.presentation.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|solutionrelative:yazilimcipazari.backend.presentation.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.presentation.api\\extension\\authenticationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09ED6D27-B580-4B14-BD04-97A549A944B2}|YazilimciPazari.Backend.Presentation.API\\YazilimciPazari.Backend.Presentation.API.csproj|solutionrelative:yazilimcipazari.backend.presentation.api\\extension\\authenticationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F54E40-A959-4B65-B198-0FDAF68D2E6D}|YazilimciPazari.Backend.Infrasructure.Infrasructure\\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.infrasructure.infrasructure\\context\\sqlservercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F54E40-A959-4B65-B198-0FDAF68D2E6D}|YazilimciPazari.Backend.Infrasructure.Infrasructure\\YazilimciPazari.Backend.Infrasructure.Infrasructure.csproj|solutionrelative:yazilimcipazari.backend.infrasructure.infrasructure\\context\\sqlservercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|c:\\dosyalar\\kodlama\\projeler\\yazilimcipazari\\yazilimcipazari.backend\\yazilimcipazari.backend.domain.entities\\concrete\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8822F0F3-9AB7-4CF9-BC82-F8FF91CDE432}|YazilimciPazari.Backend.Domain.Entities\\YazilimciPazari.Backend.Domain.Entities.csproj|solutionrelative:yazilimcipazari.backend.domain.entities\\concrete\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +71,148 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FillDatabaseExtension.cs",
-              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Presentation.API\\Extension\\FillDatabaseExtension.cs",
-              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Presentation.API\\Extension\\FillDatabaseExtension.cs",
-              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Presentation.API\\Extension\\FillDatabaseExtension.cs",
-              "RelativeToolTip": "YazilimciPazari.Backend.Presentation.API\\Extension\\FillDatabaseExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Abstract\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Abstract\\IUserRepository.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Abstract\\IUserRepository.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Abstract\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T07:28:44.814Z",
+              "WhenOpened": "2024-10-31T16:36:53.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserCommentRepository.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Concrete\\UserCommentRepository.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Concrete\\UserCommentRepository.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Concrete\\UserCommentRepository.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Concrete\\UserCommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:31:52.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:31:05.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Concrete\\UserRepository.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Concrete\\UserRepository.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Concrete\\UserRepository.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Infrasructure.Infrasructure\\Repository\\Concrete\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:21:45.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RefreshTokenDTO.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.DTOs\\Concrete\\User\\RefreshTokenDTO.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.DTOs\\Concrete\\User\\RefreshTokenDTO.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.DTOs\\Concrete\\User\\RefreshTokenDTO.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.DTOs\\Concrete\\User\\RefreshTokenDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:10:03.337Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Service.DatabaseService\\Concrete\\UserService.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Service.DatabaseService\\Concrete\\UserService.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Service.DatabaseService\\Concrete\\UserService.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Service.DatabaseService\\Concrete\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:08:50.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Presentation.API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Presentation.API\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Presentation.API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Presentation.API\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T16:03:52.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Presentation.API\\appsettings.json",
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Presentation.API\\appsettings.json",
               "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Presentation.API\\appsettings.json",
               "RelativeToolTip": "YazilimciPazari.Backend.Presentation.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-13T06:09:59.605Z"
+              "WhenOpened": "2024-10-31T16:01:52.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Service.DatabaseService\\Concrete\\LoginService.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Service.DatabaseService\\Concrete\\LoginService.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Service.DatabaseService\\Concrete\\LoginService.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Service.DatabaseService\\Concrete\\LoginService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T15:52:38.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthenticationExtension.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Presentation.API\\Extension\\AuthenticationExtension.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Presentation.API\\Extension\\AuthenticationExtension.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Presentation.API\\Extension\\AuthenticationExtension.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Presentation.API\\Extension\\AuthenticationExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T15:50:26.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SqlServerContext.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Infrasructure.Infrasructure\\Context\\SqlServerContext.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Infrasructure.Infrasructure\\Context\\SqlServerContext.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Infrasructure.Infrasructure\\Context\\SqlServerContext.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Infrasructure.Infrasructure\\Context\\SqlServerContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T15:42:12.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Role.cs",
+              "RelativeDocumentMoniker": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Role.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Domain.Entities\\Concrete\\Role.cs",
+              "RelativeToolTip": "YazilimciPazari.Backend.Domain.Entities\\Concrete\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T15:40:51.048Z"
             },
             {
               "$type": "Document",
@@ -61,9 +222,10 @@
               "RelativeDocumentMoniker": "YazilimciPazari.Backend.Presentation.API\\Program.cs",
               "ToolTip": "C:\\Dosyalar\\Kodlama\\Projeler\\YazilimciPazari\\YazilimciPazari.Backend\\YazilimciPazari.Backend.Presentation.API\\Program.cs",
               "RelativeToolTip": "YazilimciPazari.Backend.Presentation.API\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:10:02.202Z"
+              "WhenOpened": "2024-10-31T15:37:18.95Z",
+              "EditorCaption": ""
             }
           ]
         }

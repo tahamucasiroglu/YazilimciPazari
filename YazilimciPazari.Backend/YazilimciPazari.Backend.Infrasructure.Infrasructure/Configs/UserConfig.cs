@@ -13,7 +13,10 @@ namespace YazilimciPazari.Backend.Infrasructure.Infrasructure.Configs
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
+            builder.Ignore(e => e.FullName);
+
             builder.Property(e => e.Name).HasMaxLength(50).IsRequired();
+            builder.Property(e => e.Surname).HasMaxLength(50).IsRequired();
             builder.Property(e => e.Description).HasMaxLength(5000).IsRequired();
             builder.Property(e => e.IdentityNumber).HasMaxLength(128).IsRequired();
             builder.Property(e => e.Password).HasMaxLength(128).IsRequired();
