@@ -30,7 +30,7 @@ function Contact() {
   }
 
   return (
-    <Container maxWidth="sm">
+    <Container className='mt-5' maxWidth="sm">
       <ContactForm 
       email={email} 
       emailValidator={emailValidator} 

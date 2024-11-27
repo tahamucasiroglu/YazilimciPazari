@@ -17,6 +17,7 @@ export default function CompanyCard(profile:companyCardType) {
             <Link to={linkUrl} className='text-decoration-none'>
                 <Card  className='d-flex p-2 m-3 border border-ligth rounded-pill'>
                     <CardMedia
+                    className='companyImage'
                     component="img"
                     height="140"
                     image={profile.image}

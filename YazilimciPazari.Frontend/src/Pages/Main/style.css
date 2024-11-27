@@ -1,22 +1,22 @@
-.card1, .card2, .card3, .card4, .card5, .card6, .card7{
+.personcard1, .personcard2, .personcard3, .personcard4, .personcard5, .personcard6, .personcard7{
   transition: transform 0.3s ease-in-out;
   animation: slideUp linear;
 }
 
-.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover{
+.personcard1:hover, .personcard2:hover, .personcard3:hover, .personcard4:hover, .personcard5:hover, .personcard6:hover, .personcard7:hover{
   transform: scale(1.2);
 }
 
-.card1, .card7{
+.personcard1, .personcard7{
   animation-duration: 1.45s;
 }
-.card2, .card6{
+.personcard2, .personcard6{
   animation-duration: 1.3s;
 }
-.card3, .card5{
+.personcard3, .personcard5{
   animation-duration: 1.15s;
 }
-.card4{
+.personcard4{
   animation-duration: 1s;
 }
 
@@ -33,14 +33,56 @@
 }
 
 @media (max-width: 768px) {
-  .card1, .card7 {
+  .personcard1, .personcard7 {
    display: none;
   }
 }
 
 @media (max-width: 480px) {
-  .card1, .card2, .card6, .card7 {
+  .personcard1, .personcard2, .personcard6, .personcard7 {
     display: none; 
   }
 }
 
+
+.companyImage{
+  transition: transform 0.3s linear;
+}
+
+.companyImage:hover{
+  transform: scale(1.2);
+}
+
+.companycard1, .companycard2, .companycard3, .companycard4, .companycard5{
+  animation: slideUp linear;
+}
+
+
+
+.companycard1{
+  animation-duration: 1.8s;
+}
+.companycard2{
+  animation-duration: 1.6s;
+}
+.companycard3{
+  animation-duration: 1.4s;
+}
+.companycard4{
+  animation-duration: 1.2s;
+}
+.companycard5{
+  animation-duration: 1.0s;
+}
+
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(150vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); 
+    opacity: 1;
+  }
+}
